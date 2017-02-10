@@ -3,6 +3,16 @@
 # Installer
 
 install.packages("tm")
+install.packages("twitteR")
+install.packages("ggplot2")
+install.packages("sentimentr")
+install.packages("plotly")
+install.packages("reshape")
+install.packages("stringr")
+install.packages("plyr")
+install.packages("wordcloud")
+install.packages("syuzhet")
+install.packages("RColorBrewer")
 
 
 # Charger
@@ -13,11 +23,14 @@ library(plyr)
 library(stringr)
 library(reshape)
 library(ggplot2)
+library(NLP)
 library(tm)
 library(RColorBrewer)
 library(wordcloud)
 library(sentimentr)
 library(syuzhet)
+library(plotly)
+library(datasets)
 
 projectDir = getwd()
 
@@ -42,6 +55,7 @@ twitterAuth <- function()
 
   setup_twitter_oauth(consumer_key, consumer_secret, access_token, access_token_secret)
 }
+
 
 
 
