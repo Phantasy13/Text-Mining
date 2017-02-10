@@ -3,6 +3,8 @@
 
 Text Mining and sentiment analysis using twitter, study of miscrosoft.
 
+by: Wissame Zouggari
+
 ## Code Example
 
 Run scripts:
@@ -36,9 +38,6 @@ Twitter API, you need to create an account first to retrieve data from twitter.
 Add your setting to the file 1_install.R
 
 
-## Contributors
-
-Wissame Zouggari
 
 ## License
 
