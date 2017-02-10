@@ -43,15 +43,15 @@ dataDir = file.path(projectDir, 'data')
 twitterAuth <- function()
 {
 
-  # Twitter API Settings; you need to create your own
+  # Twitter API Settings; you need to create your own account
 
-  consumer_key <- "bU7l8pUSodGiimzQImXB37TYZ"
+  consumer_key <- "write key here"
 
-  consumer_secret <- "ajFpuNDjgCl1BaBTlUan4DYcjjZsLkP0ehKfAajohAz1pt8ww7"
+  consumer_secret <- "write secret here"
 
-  access_token <- "740543362718175233-n4aDxtQHC8ZffnFAnywanYp4DcIwJNf"
+  access_token <- "write token here"
 
-  access_token_secret <- "63tQ0Qb3xbIUPnSUL8YMxE6MNukRvjwalriKKyMTLdU9L"
+  access_token_secret <- "write token secret here"
 
   setup_twitter_oauth(consumer_key, consumer_secret, access_token, access_token_secret)
 }
