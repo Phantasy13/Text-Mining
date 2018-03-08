@@ -3,7 +3,6 @@
 
 Text Mining and sentiment analysis using twitter, study of miscrosoft.
 
-by: Wissame Zouggari
 
 ## Code Example
 
